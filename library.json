@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "isbn": "9780441172719"
+  },
+  {
+    "title": "Nineteen Eighty-Four",
+    "author": "Unknown Author",
+    "isbn": "9780451524935"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "isbn": "9780345339683"
+  },
+  {
+    "title": "I, Robot",
+    "author": "Isaac Asimov",
+    "isbn": "9780553382563"
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Unknown Author",
+    "isbn": "9781451673319"
+  }
+]

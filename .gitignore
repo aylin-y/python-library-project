@@ -1,0 +1,10 @@
+# Python'un oluşturduğu geçici dosyalar
+__pycache__/
+
+# Sanal ortam klasörleri (eğer kullanıyorsanız)
+venv/
+.venv/
+
+# Popüler kod editörü ayar dosyaları
+.vscode/
+.idea/
