@@ -2,7 +2,7 @@
 
 Bu proje, Python 202 Bootcamp kapsamında geliştirilmiş olup, kitap koleksiyonunuzu yönetmek için hem Komut Satırı Arayüzü (CLI) hem de REST API sunan bir kütüphane yönetim sistemidir. Open Library API'si ile entegre olarak, kitapları ISBN numaralarını kullanarak çevrimiçi olarak arayıp eklemenize olanak tanır. Kütüphaneniz, `library.json` dosyasında kalıcı olarak saklanır.
 
-## ✨ Temel Özellikler
+## Temel Özellikler
 
 *   **Kitap Ekleme, Silme ve Listeleme:** Kütüphanenize kolayca kitap ekleyin, çıkarın ve mevcut tüm kitapları listeleyin.
 *   **ISBN ile Otomatik Bilgi Çekme:** Bir kitabın ISBN'sini girdiğinizde, [Open Library API](https://openlibrary.org/developers/api)'sini kullanarak başlık ve yazar gibi bilgileri otomatik olarak alır ve kütüphanenize ekler.
@@ -13,7 +13,7 @@ Bu proje, Python 202 Bootcamp kapsamında geliştirilmiş olup, kitap koleksiyon
 *   **Asenkron İşlemler:** Ağ istekleri (`httpx` kullanılarak) asenkron olarak yönetilir.
 *   **Kapsamlı Testler:** `pytest` kullanılarak yazılmış birim ve entegrasyon testleri içerir.
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 *   **Dil:** Python 3.8+
 *   **Web Çerçevesi (API):** [FastAPI](https://fastapi.tiangolo.com/)
@@ -21,7 +21,7 @@ Bu proje, Python 202 Bootcamp kapsamında geliştirilmiş olup, kitap koleksiyon
 *   **Test:** [pytest](https://docs.pytest.org/) ve [pytest-asyncio](https://pypi.org/project/pytest-asyncio/)
 *   **API Sunucusu:** [Uvicorn](https://www.uvicorn.org/)
 
-## 🚀 Kurulum
+## Kurulum
 
 **1. Repoyu Klonlama:**
 ```bash
@@ -45,7 +45,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 🏃‍♀️ Kullanım (Usage)
+## Kullanım (Usage)
 
 ### 1. Komut Satırı Arayüzü (CLI)
 Terminal üzerinden interaktif menü ile kütüphanenizi yönetmek için `main.py` dosyasını çalıştırın.
@@ -101,8 +101,9 @@ API'nin interaktif dokümantasyonuna [http://127.0.0.1:8000/docs](http://127.0.0
     ```
 *   **Başarısız Cevap (404 Not Found):** Kitap bulunamazsa hata mesajı döndürür.
 
-## ✅ Testler
+## Testler
 
 Projenin testlerini çalıştırmak için ana dizinde aşağıdaki komutu çalıştırın:
 ```bash
-pytest```
+pytest
+```
